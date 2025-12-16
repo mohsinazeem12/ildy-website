@@ -1,0 +1,2210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ildy Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #main_div {
+            height: 100vh;
+            width: 100%;
+            background-image: url(./front-page-header.jpg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+
+        }
+
+        #navbar {
+            width: 100%;
+            height: 95px;
+            /* border: 2px solid; */
+            padding: 1px;
+        }
+
+        #logo {
+            width: 10.5%;
+            height: 77px;
+            /* border: 2px solid; */
+            margin-top: 12px;
+            margin-left: 12%;
+        }
+
+        #logo_img {
+            height: 100%;
+            width: 100%;
+        }
+
+        #content_navbar {
+            height: 40px;
+            width: 60%;
+            /* border: 2px solid; */
+            margin-left: 40%;
+            margin-top: -50px;
+        }
+
+        #list {
+            display: inline-block;
+            margin-left: 38px;
+            color: white;
+            font-weight: 500;
+            margin-top: 7px;
+            /* font-weight: bold; */
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #list:hover {
+            color: gold;
+            cursor: pointer;
+        }
+
+        #content_div {
+            height: 50vh;
+            padding: 1px;
+            width: 70%;
+            /* border: 2px solid; */
+            margin-top: 14%;
+            margin-left: 15%;
+        }
+
+        #heading_1 {
+            color: white;
+            font-size: 75px;
+            font-weight: 700;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 105px;
+            margin-top: 28px;
+        }
+
+        #para_1 {
+            color: white;
+            text-align: center;
+            font-size: 16px;
+            /* letter-spacing: 1px; */
+            word-spacing: 2px;
+
+            /* font-weight: 700; */
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 40px;
+            margin-top: 30px;
+
+        }
+
+        #learn_more {
+            height: 60px;
+            width: 250px;
+            margin-left: 270px;
+            color: white;
+            font-size: 17px;
+            border: 3px solid white;
+            border-radius: 5px;
+            margin-top: 40px;
+            background-color: rgba(0, 0, 0, 0.284);
+            font-weight: bold;
+
+        }
+
+        #learn_more:hover {
+            cursor: pointer;
+            background-color: rgba(111, 107, 107, 0.547);
+        }
+
+        #download {
+            height: 60px;
+            width: 250px;
+            margin-left: 40px;
+            color: white;
+            font-size: 17px;
+            border: 0px solid white;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 70px;
+            /* border-style: double; */
+            background-color: gold;
+        }
+
+        #download:hover {
+            cursor: pointer;
+            background-color: rgb(145, 37, 145);
+        }
+
+        #round_gold_dot {
+            color: gold;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        #about_section {
+            height: 70vh;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            padding: 1px;
+
+        }
+
+        #about {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(84, 81, 81);
+            margin-left: 46%;
+            margin-top: 50px;
+            /* font-weight: 800; */
+            font-size: 42px;
+        }
+
+        #paragraph_2 {
+            height: 100px;
+            width: 60%;
+            /* border: 2px solid; */
+            margin-left: 20%;
+            margin-top: 2%;
+            color: gray;
+
+        }
+
+        #para_2 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            line-height: 160%;
+        }
+
+        #three_boxes_trsnprt {
+            height: 150px;
+            width: 80%;
+            /* border: 2px solid; */
+            margin-left: 150px;
+        }
+
+        #first_trns_box {
+            height: 150px;
+            width: 33%;
+            /* border: 1px solid black; */
+            padding: 1px;
+        }
+
+        #red_text_container {
+            height: 35px;
+            margin-left: 55%;
+            margin-top: 30px;
+            width: 80px;
+            padding: 1px;
+            border-radius: 8px;
+            background-color: rgb(248, 117, 117);
+        }
+
+        #percent {
+            color: white;
+            font-size: 20px;
+            margin-top: 3px;
+            margin-left: 30%;
+        }
+
+        #grey_bar {
+            height: 3px;
+            padding: 1px;
+            width: 90%;
+            margin-top: 15px;
+            background-color: rgb(210, 200, 200);
+        }
+
+        #red_bar {
+            height: 5px;
+            width: 70%;
+            margin-top: -2px;
+            padding: 1px;
+            background-color: rgb(248, 117, 117);
+        }
+
+        #red_dot {
+            height: 10px;
+            width: 10px;
+            border-radius: 10px;
+            margin-top: -4px;
+            margin-left: 99%;
+            background-color: rgb(248, 117, 117);
+        }
+
+        #bottom_image_red {
+            height: 30px;
+            width: 40px;
+            /* border: 2px solid; */
+            margin-top: 13px;
+        }
+
+        #red_image {
+            height: 100%;
+            width: 100%;
+        }
+
+        #red_text {
+            color: rgb(248, 117, 117);
+            margin-left: 50px;
+            font-size: 18px;
+            margin-top: -25px;
+        }
+
+
+        #second_trns_box {
+            height: 150px;
+            width: 33%;
+            /* border: 1px solid black; */
+            padding: 1px;
+            margin-left: 33.1%;
+            margin-top: -150px;
+        }
+
+        #yellow_text_container {
+            height: 35px;
+            margin-left: 55%;
+            margin-top: 30px;
+            width: 80px;
+            padding: 1px;
+            border-radius: 8px;
+            background-color: rgb(255, 179, 1);
+        }
+
+        #percent {
+            color: white;
+            font-size: 20px;
+            margin-top: 3px;
+            margin-left: 30%;
+        }
+
+        #grey_bar {
+            height: 3px;
+            padding: 1px;
+            width: 90%;
+            margin-top: 15px;
+            background-color: rgb(210, 200, 200);
+        }
+
+        #yellow_bar {
+            height: 5px;
+            width: 70%;
+            margin-top: -2px;
+            padding: 1px;
+            background-color: rgb(255, 179, 1);
+        }
+
+        #yellow_dot {
+            height: 10px;
+            width: 10px;
+            border-radius: 10px;
+            margin-top: -4px;
+            margin-left: 99%;
+            background-color: rgb(255, 179, 1);
+        }
+
+        #bottom_image_yellow {
+            height: 30px;
+            width: 30px;
+            /* border: 2px solid; */
+            margin-top: 13px;
+        }
+
+        #yellow_image {
+            height: 100%;
+            width: 100%;
+        }
+
+        #yellow_text {
+            color: rgb(255, 179, 1);
+            margin-left: 50px;
+            font-size: 18px;
+            margin-top: -25px;
+        }
+
+        #third_trns_box {
+            height: 150px;
+            width: 33%;
+            /* border: 1px solid black; */
+            padding: 1px;
+            margin-left: 66.1%;
+            margin-top: -150px;
+        }
+
+        #purple_text_container {
+            height: 35px;
+            margin-left: 55%;
+            margin-top: 30px;
+            width: 80px;
+            padding: 1px;
+            border-radius: 8px;
+            background-color: rgb(192, 101, 245);
+        }
+
+        #percent {
+            color: white;
+            font-size: 20px;
+            margin-top: 3px;
+            margin-left: 30%;
+        }
+
+        #grey_bar {
+            height: 3px;
+            padding: 1px;
+            width: 90%;
+            margin-top: 15px;
+            background-color: rgb(210, 200, 200);
+        }
+
+        #purple_bar {
+            height: 5px;
+            width: 70%;
+            margin-top: -2px;
+            padding: 1px;
+            background-color: rgb(192, 101, 245);
+        }
+
+        #purple_dot {
+            height: 10px;
+            width: 10px;
+            border-radius: 10px;
+            margin-top: -4px;
+            margin-left: 99%;
+            background-color: rgb(192, 101, 245);
+        }
+
+        #bottom_image_purple {
+            height: 30px;
+            width: 30px;
+            /* border: 2px solid; */
+            margin-top: 13px;
+        }
+
+        #purple_image {
+            height: 100%;
+            width: 100%;
+        }
+
+        #purple_text {
+            color: rgb(192, 101, 245);
+            margin-left: 50px;
+            font-size: 18px;
+            margin-top: -25px;
+        }
+
+        #project_section {
+            height: 70vh;
+            width: 100%;
+            background-image: url(./25100.jpg);
+            background-position: center;
+            background-size: cover;
+            padding: 1px;
+            /* margin: 0; */
+
+        }
+
+        #prject_heading {
+            height: 70px;
+            width: 200px;
+            margin-top: 60px;
+            margin-left: 44%;
+            /* border: 2px solid; */
+            /* box-sizing: border-box; */
+        }
+
+        #project_text_1 {
+            color: #545454;
+            font-size: 45px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #para_below_project {
+            height: 70px;
+            width: 400px;
+            margin-top: 3px;
+            margin-left: 38%;
+            /* border: 2px solid; */
+        }
+
+        #text_2 {
+            color: #8c9597;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            margin-left: 20px;
+        }
+
+        #image_main_box {
+            height: 320px;
+            width: 100%;
+            padding: 1px;
+            /* border: 2px solid; */
+            background-color: white;
+            /* margin-left: 0px; */
+            box-sizing: border-box;
+        }
+
+        #first_image {
+            height: 100%;
+            /* margin-left: 0px; */
+            width: 25%;
+
+        }
+
+        #first_image:hover {
+            cursor: pointer;
+            opacity: 50%;
+        }
+
+        #image_sec {
+            height: 100%;
+            width: 100%;
+        }
+
+        #second_image {
+            height: 100%;
+            width: 25%;
+            /* border: 2px solid; */
+            margin-left: 25%;
+            margin-top: -317.5px;
+        }
+
+        #second_image:hover {
+            cursor: pointer;
+            opacity: 50%;
+        }
+
+        #third_image {
+            height: 100%;
+            width: 25%;
+            /* border: 2px solid; */
+            margin-left: 50%;
+            margin-top: -318px;
+        }
+
+        #third_image:hover {
+            cursor: pointer;
+            opacity: 50%;
+        }
+
+        #fourth_image {
+            height: 100%;
+            width: 25%;
+            /* border: 2px solid; */
+            margin-left: 75%;
+            margin-top: -318px;
+        }
+
+        #fourth_image:hover {
+            cursor: pointer;
+            opacity: 50%;
+        }
+
+        #testimonial_section {
+            height: 85vh;
+            width: 100%;
+            /* border: 2px solid; */
+            background-image: url('https://149842022.v2.pressablecdn.com/illdy/wp-content/themes/illdy/layout/images/testiomnials-background.jpg');
+            background-position: center;
+            padding: 1px;
+            background-size: cover;
+        }
+
+        #testimonial_heading {
+            height: 60px;
+            width: 250px;
+            /* border: 2px solid; */
+            margin-left: 42%;
+            margin-top: 5vh;
+        }
+
+        #tesimonial_text {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            color: white;
+            font-weight: 800;
+        }
+
+        #peron_img_box {
+            height: 150px;
+            width: 150px;
+            /* border: 2px solid; */
+            /* background-color: aqua; */
+            margin-top: 30px;
+            border-radius: 100px;
+            margin-left: 45%;
+        }
+
+        #round_img {
+            height: 100%;
+            width: 100%;
+            border-radius: 100px;
+        }
+
+        #review_box {
+            height: 20vh;
+            width: 70%;
+            margin-left: 15%;
+            margin-top: 40px;
+            /* border: 2px solid; */
+            background-color: #6a4d8a;
+            padding: 1px;
+        }
+
+        #paraa {
+            margin: 40px;
+            line-height: 170%;
+            color: white;
+            text-align: center;
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #triangle {
+            clip-path: polygon(0 0, 52% 100%, 100% 0);
+            background-color: #6a4d8a;
+            height: 20px;
+            width: 35px;
+            margin-left: 49%;
+            margin-top: 1.1px;
+        }
+
+        #name_box {
+            height: 35px;
+            width: 145px;
+            margin-left: 46%;
+            /* border: 2px solid; */
+            margin-top: 20px;
+        }
+
+        #name {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            font-weight: 700;
+        }
+
+        #dots_box {
+            height: 35px;
+            width: 140px;
+            padding: 1px;
+            margin-left: 46%;
+            /* border: 2px solid; */
+            margin-top: 45px;
+        }
+
+        #dot {
+            height: 12px;
+            width: 12px;
+            border-radius: 100px;
+            margin-left: 15px;
+            background-color: white;
+            display: inline-block;
+        }
+
+        #dot:hover {
+            background-color: transparent;
+            border: 1px solid white;
+            cursor: pointer;
+        }
+
+        #services_section {
+            height: 65vh;
+            width: 100%;
+            /* border: 2px solid; */
+            padding: 1px;
+        }
+
+        #header_para_div {
+            height: 20vh;
+            padding: 1px;
+            width: 60%;
+            /* border: 2px solid; */
+            margin-top: 30px;
+            margin-left: 20%;
+        }
+
+        #services_text {
+            color: #545454;
+            margin-left: 43%;
+            margin-top: 2%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            font-weight: 700;
+        }
+
+        #para_textt {
+            color: #8c9597;
+            margin-left: 9%;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+
+        #services_elements_container {
+            height: 40.4vh;
+            width: 100%;
+            /* border: 2px solid; */
+        }
+
+        #webdesign_container {
+            height: 100%;
+            width: 25%;
+            /* border: 2px solid; */
+            margin-left: 10%;
+        }
+
+        #red_pen {
+            height: 50px;
+            width: 50px;
+            margin-left: 45%;
+            margin-top: 10px;
+        }
+
+        #webdesign_textt {
+            color: rgb(241, 139, 109);
+            margin-left: 30%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        #content {
+            color: #8c9597;
+            margin: 25px;
+            margin-top: 30px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+
+        }
+
+        #web_development_container {
+            height: 100%;
+            width: 25%;
+            /* border: 2px solid; */
+            margin-left: 35%;
+            margin-top: -19.85%;
+
+        }
+
+        #html_code {
+            height: 50px;
+            width: 50px;
+            margin-left: 45%;
+            margin-top: 15px;
+        }
+
+        #webdevelopment_textt {
+            color: rgb(241, 210, 4);
+            margin-left: 15%;
+            margin-top: -2px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        #seo_container {
+            height: 100%;
+            width: 25%;
+            /* border: 2px solid; */
+            margin-left: 60%;
+            margin-top: -19.85%;
+        }
+
+        #seo {
+            height: 50px;
+            width: 45px;
+            margin-left: 45%;
+            margin-top: 15px;
+        }
+
+        #seo_textt {
+            color: rgb(106, 77, 138);
+            margin-left: 25%;
+            margin-top: -2px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            font-weight: 600;
+            /* line-height: 150%; */
+        }
+
+        #news_section {
+            height: 130vh;
+            width: 100%;
+            padding: 1px;
+            /* border: 2px solid; */
+            background-color: #222f36;
+        }
+
+        #h1_p_button_container {
+            height: 30vh;
+            width: 60%;
+            /* border: 2px solid; */
+            margin-top: 5%;
+            margin-left: 20%;
+        }
+
+        #latest_news_text {
+            margin-left: 38%;
+            /* font-weight: 800; */
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+        }
+
+        #latest_news_para {
+            color: #8c9597;
+            margin-left: 60px;
+            font-size: 16px;
+            margin-top: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #lat_news_button {
+            background-color: #f1d204;
+            height: 50px;
+            width: 160px;
+            padding: 1px;
+            border-radius: 5px;
+            margin-left: 41%;
+            margin-top: 50px;
+        }
+
+        #lat_news_button:hover {
+            background-color: #6a4d8a;
+            cursor: pointer;
+        }
+
+        #arrow_btn {
+            height: 15px;
+            width: 15px;
+            margin-left: -60px;
+            margin-top: 4px;
+        }
+
+        #arrow_text {
+            margin-top: -18px;
+            margin-left: 32px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            font-size: 15px;
+        }
+
+        #empty_container {
+            height: 77vh;
+            width: 80%;
+            /* padding: 1px; */
+            margin-top: 1vh;
+            margin-left: 10%;
+            /* border: 2px solid; */
+        }
+
+        #box1 {
+            height: 90%;
+            width: 30%;
+            padding: 0px;
+            /* background-color: #f1d204; */
+            /* border: 2px solid; */
+            margin-left: 3%;
+        }
+
+        #img_1_contnr {
+            height: 39%;
+            width: 100%;
+            /* border: 2px solid; */
+        }
+
+        #text_contnr {
+            height: 61%;
+            padding: 1px;
+            width: 100%;
+            background-color: white;
+        }
+
+        #top_head {
+            color: #545454;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 27px;
+            margin: 40px;
+            /* border: 2px solid; */
+        }
+
+        #top_head:hover {
+            cursor: pointer;
+            color: #f1d204;
+        }
+
+        #text_description {
+            font-size: 17px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #8c9597;
+            margin: 40px;
+        }
+
+        #arrow {
+            height: 15px;
+            width: 15px;
+            margin-left: 60px;
+        }
+
+        #arrow_textt {
+            margin-left: 85px;
+            margin-top: -19px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #f1d204;
+            /* font-weight: 600; */
+        }
+
+        #arrow_textt:hover {
+            color: #6a4d8a;
+            cursor: pointer;
+        }
+
+        #box2 {
+            height: 100%;
+            width: 30%;
+            padding: 0px;
+            /* background-color: #f1d204; */
+            /* border: 2px solid; */
+            margin-left: 37%;
+            margin-top: -69vh;
+        }
+
+        #img_2_contnr {
+            height: 35.1%;
+            width: 100%;
+        }
+
+        #text_contnr_2 {
+            height: 65%;
+            padding: 1px;
+            width: 100%;
+            background-color: white;
+        }
+
+        #arrow_2 {
+            height: 15px;
+            width: 15px;
+            margin-left: 60px;
+            margin-top: 40px;
+        }
+
+        #arrow_textt_2 {
+            margin-left: 85px;
+            margin-top: -19px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #f1d204;
+            /* font-weight: 600; */
+        }
+
+        #arrow_textt_2:hover {
+            color: #6a4d8a;
+            cursor: pointer;
+        }
+
+        #box3 {
+            height: 90%;
+            width: 30%;
+            padding: 0px;
+            /* background-color: #f1d204; */
+            /* border: 2px solid; */
+            margin-left: 70%;
+            margin-top: -76.5vh;
+        }
+
+        #yellow_image_sec {
+            height: 20vh;
+            width: 100%;
+            padding: 1px;
+            /* border: 2px solid; */
+            background-image: url(./front-page-counter.jpg);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        #project_div {
+            height: 30%;
+            width: 150px;
+            /* border: 2px solid; */
+            margin-left: 20%;
+            margin-top: 3.5%;
+        }
+
+        #project_text {
+            font-size: 25px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            /* margin-left: 30%; */
+        }
+
+        #line1 {
+            height: 40px;
+            width: 1px;
+            background-color: white;
+            margin-left: 38%;
+            margin-top: -3%;
+        }
+
+        #client_div {
+            height: 30%;
+            width: 150px;
+            /* border: 2px solid; */
+            margin-left: 47%;
+            margin-top: -2.5%;
+        }
+
+        #client_text {
+            font-size: 25px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            /* margin-left: 30%; */
+        }
+
+        #line2 {
+            height: 40px;
+            width: 1px;
+            background-color: white;
+            margin-left: 64%;
+            margin-top: -3%;
+        }
+
+        #coofes_div {
+            height: 30%;
+            width: 150px;
+            /* border: 2px solid; */
+            margin-left: 77%;
+            margin-top: -2.5%;
+        }
+
+        #coofes_text {
+            font-size: 25px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            /* margin-left: 30%; */
+        }
+
+        #team_sect {
+            height: 70vh;
+            width: 100%;
+            /* border: 2px solid; */
+            padding: 1px;
+            background-image: url(./25100.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        #team_header_para_div {
+            height: 20vh;
+            padding: 1px;
+            width: 60%;
+            /* border: 2px solid; */
+            margin-top: 30px;
+            margin-left: 20%;
+        }
+
+        #team_text {
+            color: #545454;
+            margin-left: 43%;
+            margin-top: 2%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            font-weight: 700;
+        }
+
+        #team_para_text {
+            color: #8c9597;
+            margin-left: 20%;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+
+        #team_data_container {
+            height: 35vh;
+            width: 80%;
+            margin-left: 10%;
+            padding: 1px;
+            /* border: 2px solid; */
+        }
+
+        #member_contnr {
+            height: 100%;
+            width: 33.1%;
+            /* background-color: #8c9597; */
+            display: inline-block;
+            vertical-align: top;
+            padding: 1px;
+            /* margin-left: 0px; */
+        }
+
+        #member_img_box {
+            height: 130px;
+            width: 130px;
+            /* border: 2px solid; */
+            margin-left: 10px;
+            /* padding: 1px; */
+            margin-top: 10px;
+            border-radius: 100px;
+
+        }
+
+        #member_round_img {
+            height: 100%;
+            width: 100%;
+            border-radius: 100px;
+        }
+
+        #member_info {
+            height: 100%;
+            width: 256px;
+            /* border: 2px solid; */
+            margin-left: 36%;
+            margin-top: -140px;
+        }
+
+        #member_name {
+            margin-top: 18px;
+            margin-left: 20px;
+            /* padding: 1px; */
+            color: #545454;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 19px;
+
+        }
+
+        #web_field {
+            color: rgb(241, 139, 109);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            margin-top: 15px;
+            margin-left: 20px;
+
+        }
+
+        #seo_field {
+            color: #f1d204;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            margin-top: 15px;
+            margin-left: 20px;
+        }
+
+        #developer_field {
+            color: #6a4d8a;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            margin-top: 15px;
+            margin-left: 20px;
+        }
+
+        #field_info {
+            margin-top: 25px;
+            margin-left: 20px;
+            color: #8c9597;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+
+        #social_icons_trans_div {
+            height: 20px;
+            width: 140px;
+            /* border: 2px solid; */
+            margin-top: 15px;
+            margin-left: 20px;
+        }
+
+        #web_social_icon_div {
+            height: 100%;
+            width: 20px;
+            /* border: 2px solid; */
+            display: inline-block;
+            margin-left: 10px;
+            border-radius: 100px;
+        }
+
+        #img {
+            height: 100%;
+            width: 100%;
+            border-radius: 100px;
+        }
+
+        #img:hover {
+            cursor: pointer;
+
+        }
+
+        #contact_us_sect {
+            height: 95vh;
+            width: 100%;
+            background-color: white;
+            padding: 1px;
+        }
+
+        #contact_head_div {
+            height: 50px;
+            width: 200px;
+            /* border: 2px solid; */
+            margin-left: 44%;
+            margin-top: 3%;
+        }
+
+        #contact_text {
+            color: #545454;
+            /* margin-left: 43%; */
+            margin-top: 2%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            /* font-weight: 700; */
+        }
+
+        #address_to_icons_div {
+            height: 70px;
+            width: 80%;
+            margin-top: 70px;
+            /* border: 2px solid; */
+            margin-left: 10%;
+        }
+
+        #info_box {
+            height: 100%;
+            width: 450px;
+            /* background-color: rgb(244, 165, 62); */
+            display: inline-block;
+            vertical-align: top;
+            /* vertical-align: top; */
+        }
+
+        #address_text_div {
+            height: 100%;
+            padding: 1px;
+            width: 130px;
+            border-right: 1px solid #8c9597;
+        }
+
+        #address_text {
+            height: 100%;
+            width: 250px;
+            /* border: 2px solid; */
+            margin-left: 130px;
+            margin-top: -67px;
+        }
+
+        #customer_text_div {
+            height: 100%;
+            width: 200px;
+            padding: 1px;
+            border-right: 1px solid #8c9597;
+            /* border: 2px solid; */
+        }
+
+        #customer_text {
+            height: 100%;
+            width: 250px;
+            /* border: 2px solid; */
+            margin-left: 200px;
+            margin-top: -67px;
+        }
+
+        #left_block_text {
+            color: #f1d204;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        #right_block_text {
+            color: #8c9597;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            margin-left: 20px;
+            margin-top: 6px;
+            line-height: 150%;
+        }
+
+        #icons_trans_div {
+            height: 20px;
+            width: 120px;
+            /* border: 2px solid; */
+            margin-top: -45px;
+            margin-left: 88%;
+        }
+
+        #three_social_icon_div {
+            height: 100%;
+            width: 20px;
+            /* border: 2px solid; */
+            display: inline-block;
+            margin-left: 10px;
+            border-radius: 100px;
+        }
+
+        #form_empty_container {
+            height: 55vh;
+            width: 80%;
+            /* border: 3px solid silver; */
+            margin-left: 10%;
+            margin-top: 20px;
+        }
+
+        #name_email_subject_container {
+            height: 65px;
+            width: 350px;
+            margin-left: 30px;
+            margin-top: 15px;
+            vertical-align: top;
+            display: inline-block;
+            /* border: 2px solid; */
+        }
+
+        #form_text {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            color: #8c9597;
+            /* margin-left: 20px; */
+        }
+
+        #input_text {
+            height: 40px;
+            width: 100%;
+            background-color: #fcfcfc;
+            border: 1px solid #e1e1e1;
+            color: #8c9597;
+            padding: 10px 20px 10px 20px;
+            font-size: 16px;
+
+        }
+
+        #message_container {
+            height: 250px;
+            width: 100%;
+            margin-top: 10px;
+            /* border: 2px solid; */
+        }
+
+        #textarea_label {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            color: #8c9597;
+            margin-left: 32px;
+        }
+
+        #textarea_box {
+            resize: none;
+            height: 90%;
+            width: 93%;
+            margin-left: 30px;
+            background-color: #fcfcfc;
+            border: 1px solid #e1e1e1;
+            color: #8c9597;
+            padding: 10px 20px 10px 20px;
+            font-size: 16px;
+        }
+
+        #form_btn {
+            height: 40px;
+            width: 150px;
+            color: white;
+            background-color: #f1d204;
+            border: none;
+            border-radius: 6px;
+            margin-top: 22px;
+            margin-left: 83%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            font-weight: 600;
+        }
+
+        #footer_navigation {
+            height: 40vh;
+            width: 100%;
+            padding: 1px;
+            background-color: #292825;
+            padding-left: 10%;
+        }
+
+        #nav_container {
+            height: 90%;
+            width: 300px;
+            /* border: 2px solid white; */
+            margin-top: 1%;
+            vertical-align: top;
+            display: inline-block;
+            padding: 20px 10px 10px 10px;
+            /* margin-left: 10%; */
+        }
+
+        #footer_heading {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 26px;
+        }
+
+        #footer_list {
+            color: #8c979e;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            list-style: none;
+        }
+
+        #footer_list:hover {
+            cursor: pointer;
+            color: #6a4d8a;
+        }
+
+        #footer {
+            height: 8vh;
+            width: 100%;
+            background-color: #242320;
+            padding: 1px;
+        }
+        #theme{
+            color: #8c9597;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            margin-left: 40%;
+            margin-top: 20px;
+        }
+        #copyright{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            /* text-align: center; */
+            margin-left: 46.5%;
+            margin-top: -17px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="main_div">
+
+        <div id="navbar">
+
+            <div id="logo">
+
+                <img id="logo_img" src="./cropped-footer-logo-1.png" alt="">
+
+            </div>
+
+
+            <ul id="content_navbar">
+
+                <li id="list">About</li>
+                <li id="list">Portfolio</li>
+                <li id="list">Testimonials</li>
+                <li id="list">Services</li>
+                <li id="list">Blog</li>
+                <li id="list">Our Team</li>
+                <li id="list">Contact Us</li>
+            </ul>
+
+
+
+        </div>
+
+
+        <div id="content_div">
+
+            <h1 id="heading_1">
+                Clean<span id="round_gold_dot">.</span>Slick<span id="round_gold_dot">.</span>Pixel Perfect
+            </h1>
+
+            <p id="para_1">lldy is a great one-page theme, perfect for developers and designers but also for someone
+                <br> <br> who just wants a new website for his business. Try it now!
+            </p>
+
+            <button id="learn_more" title="Learn More">
+                Learn More
+            </button>
+
+            <button id="download" title="Download">
+                Download
+            </button>
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+    <div id="about_section">
+
+        <h1 id="about">About</h1>
+
+        <div id="paragraph_2">
+
+            <p id="para_2">It is an amazng one-page theme with great features that offers an incredible experience. It
+                is easy to install, make changes, adapt for your business. A modern design with clean lines and
+                styling for a wide variety of content, exactly how a business design should be. You can add as many
+                images as you want to the main header area and turn them into slider.
+            </p>
+
+        </div>
+
+        <div id="three_boxes_trsnprt">
+
+            <div id="first_trns_box">
+
+                <div id="red_text_container">
+
+                    <p id="percent">70%</p>
+
+                </div>
+
+                <div id="grey_bar">
+
+                    <div id="red_bar">
+
+                        <div id="red_dot"></div>
+
+                    </div>
+
+                    <div id="bottom_image_red">
+                        <img id="red_image"
+                            src="https://e7.pngegg.com/pngimages/814/321/png-clipart-times-new-roman-letter-case-roman-type-font-others-miscellaneous-angle-thumbnail.png"
+                            alt="red text a">
+                    </div>
+
+                    <p id="red_text">Typography</p>
+
+                </div>
+
+            </div>
+
+
+            <div id="second_trns_box">
+
+                <div id="yellow_text_container">
+
+                    <p id="percent">70%</p>
+
+                </div>
+
+                <div id="grey_bar">
+
+                    <div id="yellow_bar">
+
+                        <div id="yellow_dot"></div>
+
+                    </div>
+
+                    <div id="bottom_image_yellow">
+                        <img id="yellow_image"
+                            src="https://icones.pro/wp-content/uploads/2022/07/icone-crayon-jaune.png" alt="yellow pen">
+                    </div>
+
+                    <p id="yellow_text">Design</p>
+
+                </div>
+
+            </div>
+
+
+
+            <div id="third_trns_box">
+
+                <div id="purple_text_container">
+
+                    <p id="percent">70%</p>
+
+                </div>
+
+                <div id="grey_bar">
+
+                    <div id="purple_bar">
+
+                        <div id="purple_dot"></div>
+
+                    </div>
+
+                    <div id="bottom_image_purple">
+                        <img id="purple_image"
+                            src="https://png.pngtree.com/png-vector/20220707/ourmid/pngtree-close-html-bracket-embed-code-png-image_5654026.png"
+                            alt="html sign">
+                    </div>
+
+                    <p id="purple_text">Development</p>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <div id="project_section">
+
+        <div id="prject_heading">
+
+            <h1 id="project_text_1">Projects</h1>
+
+        </div>
+
+        <div id="para_below_project">
+
+            <p id="text_2">You'll love our work. Check it out!</p>
+
+        </div>
+
+        <div id="image_main_box">
+
+            <div id="first_image">
+
+                <img id="image_sec" src="./front-page-project-4.jpg" alt="first image" title="Illdy Images">
+
+            </div>
+
+            <div id="second_image">
+
+                <img id="image_sec" src="./front-page-project-3.jpg" alt="second image" title="Illdy Images">
+
+            </div>
+
+            <div id="third_image">
+
+                <img id="image_sec" src="./front-page-project-2.jpg" alt="third image" title="Illdy Images">
+
+            </div>
+
+            <div id="fourth_image">
+
+                <img id="image_sec" src="./front-page-project-1.jpg" alt="fourth image" title="Illdy Images">
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <div id="testimonial_section">
+
+
+        <div id="testimonial_heading">
+
+            <h1 id="tesimonial_text">Testimonials</h1>
+
+        </div>
+
+        <div id="peron_img_box">
+
+            <img src="./mike-muller-127x127.jpg" alt="person image" id="round_img">
+
+        </div>
+
+
+        <div id="review_box">
+
+            <p id="paraa">"Awesome theme with great design and awesome support. If you don’t know how to code your own
+                WordPress theme, but you still want a good-looking website for your business, Illdy might be exactly
+                what you need. It is a slick theme with a lot of of features to choose from."</p>
+        </div>
+
+        <div id="triangle">
+
+        </div>
+
+        <div id="name_box">
+
+            <h3 id="name">Mike Muller
+            </h3>
+
+        </div>
+
+        <div id="dots_box">
+
+            <div id="dot"></div>
+            <div id="dot"></div>
+            <div id="dot"></div>
+            <div id="dot"></div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <div id="services_section">
+
+        <div id="header_para_div">
+
+            <h1 id="services_text">Services</h1>
+
+            <p id="para_textt">In order to help you grow your business, our carefully selected experts can advise you in
+                in the following areas:
+            </p>
+
+        </div>
+
+        <div id="services_elements_container">
+
+            <div id="webdesign_container">
+
+                <img src="./red pen.png" alt="red pen" id="red_pen">
+
+                <h3 id="webdesign_textt">Web Design</h3>
+
+
+                <p id="content">Consectetur adipiscing elit. Praesent molestie urna hendrerit erat tincidunt
+                    tempus. Aliquam a leo risus. Fusce a metus non augue dapibus porttitor at in mauris. Pellentesque
+                    commodo...</p>
+
+            </div>
+
+
+
+
+            <div id="web_development_container">
+
+
+                <img src="./html_code.png" alt="html code" id="html_code">
+
+                <h3 id="webdevelopment_textt">Web Development</h3>
+
+                <p id="content">Consectetur adipiscing elit. Praesent molestie urna hendrerit erat tincidunt
+                    tempus. Aliquam a leo risus. Fusce a metus non augue dapibus porttitor at in mauris. Pellentesque
+                    commodo...</p>
+
+            </div>
+
+
+            <div id="seo_container">
+
+
+                <img src="./seo.png" alt="html code" id="seo">
+
+                <h3 id="seo_textt">Seo Analysis</h3>
+
+                <p id="content">Consectetur adipiscing elit. Praesent molestie urna hendrerit erat tincidunt
+                    tempus. Aliquam a leo risus. Fusce a metus non augue dapibus porttitor at in mauris. Pellentesque
+                    commodo...</p>
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+    <div id="news_section">
+
+        <div id="h1_p_button_container">
+
+            <h1 id="latest_news_text">Latest News</h1>
+
+            <p id="latest_news_para">If you are interested in the latest articles in the industry, take a sneak peek at
+                our blog. You have nothing to loose!
+            </p>
+
+            <button id="lat_news_button">
+
+                <img id="arrow_btn"
+                    src="https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/arrow-circle-right-angle-next-512.png"
+                    alt="Arrow Button">
+
+                <p id="arrow_text">See Blog</p>
+
+            </button>
+
+
+
+        </div>
+
+        <div id="empty_container">
+
+            <div id="box1">
+
+                <div id="img_1_contnr">
+
+                    <img src="./Occean.jpg" alt="Image 1" id="image_sec">
+
+                </div>
+
+                <div id="text_contnr">
+
+                    <h1 id="top_head">We Have Made Illdy Theme SEO Friendly</h1>
+
+                    <p id="text_description">Illdy One Page WordPress theme is fully SEO friendly and is ready to help
+                        you to achieve the highest rankings…</p>
+
+                    <p id="read_more_yellow"> <img id="arrow"
+                            src="https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/arrow-circle-right-angle-next-512.png"
+                            alt="Arrow Button">
+
+                    <p id="arrow_textt">Read More</p>
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+
+
+            <div id="box2">
+
+                <div id="img_2_contnr">
+
+                    <img src="./black cloud mountain.jpg" alt="Image 1" id="image_sec">
+
+                </div>
+
+                <div id="text_contnr_2">
+
+                    <h1 id="top_head">Stunning One Page WordPress Theme For Masses</h1>
+
+                    <p id="text_description">This theme is not just free, it is free for private and commercial use
+                        since it is licensed under GPL…</p>
+
+                    <p id="read_more_yellow"> <img id="arrow_2"
+                            src="https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/arrow-circle-right-angle-next-512.png"
+                            alt="Arrow Button">
+
+                    <p id="arrow_textt_2">Read More</p>
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+
+
+            <div id="box3">
+
+                <div id="img_1_contnr">
+
+                    <img src="./snowy mountain.jpg" alt="Image 1" id="image_sec">
+
+                </div>
+
+                <div id="text_contnr">
+
+                    <h1 id="top_head">Hello world!</h1>
+
+                    <p id="text_description">Welcome to colorlib.com. This is our first post around Illdy WordPress
+                        theme. Now show that you can make out of it.…</p>
+
+                    <p id="read_more_yellow"> <img id="arrow"
+                            src="https://cdn2.iconfinder.com/data/icons/essential-web-1-1/50/arrow-circle-right-angle-next-512.png"
+                            alt="Arrow Button">
+
+                    <p id="arrow_textt">Read More</p>
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+    <div id="yellow_image_sec">
+
+        <div id="project_div">
+            <h3 id="project_text">PROJECTS</h3>
+        </div>
+
+        <div id="line1"></div>
+
+        <div id="client_div">
+            <h3 id="client_text">CLIENTS</h3>
+        </div>
+
+        <div id="line2"></div>
+
+        <div id="coofes_div">
+            <h3 id="coofes_text">COOFES</h3>
+        </div>
+
+    </div>
+
+
+
+    <div id="team_sect">
+
+        <div id="team_header_para_div">
+
+            <h1 id="team_text">Team</h1>
+
+            <p id="team_para_text">Meet the people that are going to take your business to the next level.
+
+            </p>
+
+        </div>
+
+        <div id="team_data_container">
+
+            <div id="member_contnr">
+
+                <div id="member_img_box">
+
+                    <img src="./front-page-team-1.jpg" alt="Member 1" id="member_round_img">
+
+                </div>
+
+                <div id="member_info">
+
+                    <h3 id="member_name">MARK LAWRANCE</h3>
+
+                    <p id="web_field">Web Designer</p>
+
+                    <p id="field_info">Creative, detail-oriented, always focused.</p>
+
+                    <div id="social_icons_trans_div">
+
+                        <div id="web_social_icon_div">
+
+                            <img id="img" src="https://logodix.com/logo/353920.png" alt="fb">
+
+                        </div>
+
+                        <div id="web_social_icon_div">
+
+                            <img id="img"
+                                src="https://www.pngkit.com/png/full/497-4979863_facebook-social-social-media-icon-os-system-windows.png"
+                                alt="twiiter">
+
+                        </div>
+
+                        <div id="web_social_icon_div">
+
+                            <img id="img"
+                                src="https://iconsplace.com/wp-content/uploads/_icons/ffa500/256/png/linkedin-icon-11-256.png"
+                                alt="linkedin">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div id="member_contnr">
+
+                <div id="member_img_box">
+
+                    <img src="./front-page-team-2.jpg" alt="Member 1" id="member_round_img">
+
+                </div>
+
+                <div id="member_info">
+
+                    <h3 id="member_name">Jane Stenton</h3>
+
+                    <p id="seo_field">SEO Specialist</p>
+
+                    <p id="field_info">Curious, tech-geeck and gets serious when it comes to work.</p>
+
+
+                    <div id="social_icons_trans_div">
+
+                        <div id="web_social_icon_div">
+
+                            <img id="img"
+                                src="https://banner2.cleanpng.com/20180403/gde/kisspng-social-media-coupon-advertising-computer-icons-ser-yellow-background-5ac337b9de3ab1.2484924515227432259103.jpg"
+                                alt="fb">
+
+                        </div>
+
+                        <div id="web_social_icon_div">
+
+                            <img id="img"
+                                src="https://w7.pngwing.com/pngs/785/119/png-transparent-social-media-computer-icons-twitter-orange-logo-computer-wallpaper.png"
+                                alt="twiiter">
+
+                        </div>
+
+                        <div id="web_social_icon_div">
+
+                            <img id="img"
+                                src="https://iconsplace.com/wp-content/uploads/_icons/ffd700/256/png/linkedin-2-icon-6-256.png"
+                                alt="linkedin">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div id="member_contnr">
+
+                <div id="member_img_box">
+
+                    <img src="./front-page-team-3.jpg" alt="Member 1" id="member_round_img">
+
+                </div>
+
+                <div id="member_info">
+
+                    <h3 id="member_name">John Smith</h3>
+
+                    <p id="developer_field">Developer</p>
+
+                    <p id="field_info">Enthusiastic, passionate with great sense of humor.
+
+                    </p>
+
+
+                    <div id="social_icons_trans_div">
+
+                        <div id="web_social_icon_div">
+
+                            <img id="img"
+                                src="https://iconsplace.com/wp-content/uploads/_icons/800080/256/png/facebook-2-icon-13-256.png"
+                                alt="fb">
+
+                        </div>
+
+                        <div id="web_social_icon_div">
+
+                            <img id="img" src="https://icones.pro/wp-content/uploads/2021/02/icone-twitter-violet.png"
+                                alt="twiiter">
+
+                        </div>
+
+                        <div id="web_social_icon_div">
+
+                            <img id="img"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrRPxfjbgvK9Un3P-immkxYFLCzFm3TjEI1_gVjLizy-PqZKBgfjDogmsvKLhI1_AKqpk&usqp=CAU"
+                                alt="linkedin">
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <div id="contact_us_sect">
+
+
+        <div id="contact_head_div">
+
+            <h1 id="contact_text">Contact us</h1>
+
+        </div>
+
+
+        <div id="address_to_icons_div">
+
+            <div id="info_box">
+
+                <div id="address_text_div">
+
+                    <p id="left_block_text">Address</p>
+
+                </div>
+
+                <div id="address_text">
+
+                    <p id="right_block_text">Street 221B Baker Street,
+                        London, UK</p>
+
+                </div>
+
+            </div>
+
+            <div id="info_box">
+
+                <div id="customer_text_div">
+
+                    <p id="left_block_text">Customer Support</p>
+
+                </div>
+
+                <div id="customer_text">
+
+                    <p id="right_block_text">E-mail: contact@site.com <br>
+                        Phone: (555) 555-5555</p>
+                </div>
+
+            </div>
+
+
+            <div id="icons_trans_div">
+
+                <div id="three_social_icon_div">
+
+                    <img id="img"
+                        src="https://www.pngkit.com/png/full/208-2081194_facebook-icon-png-facebook-icon-vector-gray.png"
+                        alt="fb">
+
+                </div>
+
+                <div id="three_social_icon_div">
+
+                    <img id="img"
+                        src="https://www.pngitem.com/pimgs/m/204-2040928_logo-twitter-circle-grey-current-twitter-logo-png.png"
+                        alt="twiiter">
+
+                </div>
+
+                <div id="three_social_icon_div">
+
+                    <img id="img"
+                        src="https://www.pinpng.com/pngs/m/45-451037_white-social-icons-png-png-download-grey-linkedin.png"
+                        alt="linkedin">
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div id="form_empty_container">
+
+            <div id="name_email_subject_container">
+
+                <label id="form_text">Your Name (required)</label><br>
+
+                <input type="text" id="input_text">
+
+            </div>
+
+
+            <div id="name_email_subject_container">
+
+                <label id="form_text">Your Email (required)</label><br>
+
+                <input type="email" id="input_text">
+
+            </div>
+
+            <div id="name_email_subject_container">
+
+                <label id="form_text">Subject</label><br>
+
+                <input type="text" id="input_text">
+
+            </div>
+
+
+
+
+            <div id="message_container">
+
+                <label id="textarea_label">Your Message</label><br>
+                <textarea id="textarea_box"></textarea>
+
+            </div>
+
+            <button id="form_btn">Send</button>
+
+
+        </div>
+
+
+    </div>
+
+    <div id="footer_navigation">
+
+        <div id="nav_container">
+
+            <h1 id="footer_heading">Products</h1>
+
+            <ul id="content_footer">
+                <li id="footer_list">> Our work</li>
+                <li id="footer_list">> Club</li>
+                <li id="footer_list">> News</li>
+                <li id="footer_list">> Announcement</li>
+            </ul>
+
+        </div>
+
+
+        <div id="nav_container">
+
+            <h1 id="footer_heading">INFORMATION</h1>
+
+            <ul id="content_footer">
+                <li id="footer_list">> Pricing</li>
+                <li id="footer_list">> Terms</li>
+                <li id="footer_list">> Affiliates</li>
+                <li id="footer_list">> Blog</li>
+            </ul>
+
+        </div>
+
+        <div id="nav_container">
+
+            <h1 id="footer_heading">SUPPORT</h1>
+
+            <ul id="content_footer">
+                <li id="footer_list">> Documentation</li>
+                <li id="footer_list">> FAQs</li>
+                <li id="footer_list">> Forums</li>
+                <li id="footer_list">> Contact</li>
+            </ul>
+
+        </div>
+    </div>
+
+
+    <div id="footer">
+
+        <p id="theme">Theme: Illdy.</p>
+
+        <p id="copyright">© Copyright 2017. All Rights Reserved.</p>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
